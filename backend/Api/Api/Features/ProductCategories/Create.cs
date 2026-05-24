@@ -62,6 +62,13 @@ public static class CreateProductCategory
             Command command, 
             CancellationToken cancellationToken)
         {
+            if (await context.ProductCategories.AnyAsync(x => x.Name == command.Name, cancellationToken))
+            {
+                return Result.Failure<Response>(
+                    ProductCategoryErrors.NameAlreadyExists(
+                        command.Name));
+            }
+
             var entity = command.ToEntity();
 
             await context.ProductCategories.AddAsync(

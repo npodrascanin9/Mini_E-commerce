@@ -65,6 +65,12 @@ public static class DeleteProductCategoryById
                     ProductCategoryErrors.NotFound(command.Id));
             }
 
+            if (await context.Products.AnyAsync(x => x.ProductCategoryId == entity.Id, cancellationToken))
+            {
+                return Result.Failure<Response>(
+                    ProductCategoryErrors.ContainsProducts(command.Id));
+            }
+
             context.Remove(entity);
             await context.SaveChangesAsync(cancellationToken);
 
