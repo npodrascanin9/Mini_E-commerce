@@ -16,10 +16,7 @@ public class ExportExcelProductsEndpoint :
                 var result = await sender.Send(query);
 
                 return result.Match(
-                    onSuccess: () => Results.File(
-                        fileContents: result.Value.FileContents,
-                        contentType: result.Value.ContentType,
-                        fileDownloadName: result.Value.DownloadName),
+                    onSuccess: () => Results.Ok(result.Value),
                     onFailure: error => Results.BadRequest(error));
             })
             .WithName("ExportExcelProducts")
@@ -34,7 +31,7 @@ public static class ExportExcelProducts
         IQuery<Result<Response>>;
 
     public record Response(
-        string DownloadName,
+        string FileDownloadName,
         string ContentType,
         byte[] FileContents);
 
@@ -71,7 +68,7 @@ public static class ExportExcelProducts
                 cancellationToken);
 
             Response response = new(
-                DownloadName: ExcelFileNameSetter.SetExcelFileName("List of products"),
+                FileDownloadName: ExcelFileNameSetter.SetExcelFileName("List of products"),
                 ContentType: ExcelFileConstants.ContentType,
                 FileContents: excelExporter.ExportExcelFile(records));
 
