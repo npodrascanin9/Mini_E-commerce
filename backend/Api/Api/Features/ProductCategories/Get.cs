@@ -79,6 +79,7 @@ public static class GetProductCategories
             response.Count = await queryable
                 .CountAsync(cancellationToken);
             response.Rows = await queryable
+                .OrderByDescending(x => x.UpdatedAt)
                 .Select(productCategoryEntity => query.ToRowDto(productCategoryEntity))
                 .ToListAsync(cancellationToken);
 
