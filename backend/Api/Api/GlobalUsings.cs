@@ -10,7 +10,7 @@ global using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 
 global using Api.Shared.ExcelFileExporting;
-global using Api.Shared.ExcelFileExporting;
+global using Api.Shared.Options;
 global using Api.Behaviors;
 global using Api.Extensions;
 global using Api.Abstractions.CQRS;
