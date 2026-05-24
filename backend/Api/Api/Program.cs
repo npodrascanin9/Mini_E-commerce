@@ -7,6 +7,16 @@ builder.Services.AddSwaggerGen();
 
 var assembly = typeof(Program).Assembly;
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 builder.Services
     .AddSqlDatabaseConfiguration(builder.Configuration)
     .AddMediatrConfiguration(assembly)
@@ -24,6 +34,12 @@ if (app.Environment.IsDevelopment())
 }
 
 app.MapCarter();
+
+app.UseCors(
+    policy => policy
+        .AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader());
 
 app.UseHttpsRedirection();
 
