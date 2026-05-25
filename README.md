@@ -21,5 +21,7 @@
 
 ### Frontend
 1) Make sure that Angular version 14 is installed
-2) Run "npm i"
-3) Run command "ng s"
+2) Run:
+   - npm i
+   - ng s
+3) Verify that localhost:4200 is running wihtout any bugs
