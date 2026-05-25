@@ -95,14 +95,19 @@ export class ProductCategoriesComponent implements OnInit {
     }
 
     onDelete(row: ProductCategoryRowDto): void {
-        this.canDelete(row) && this.productCategoryService.deleteById(row.id).subscribe(
-            () => this.matSnackBar.open('Successfully deleted record'),
-            error => this.displayError(error),
-            () => this.loadData());
+        this.canDelete(row) && this.deleteById(row.id);
     }
 
     private canDelete(row: ProductCategoryRowDto): boolean {
         return confirm(`Are you sure? Product category with Id='${row.id}' will be deleted`);
+    }
+
+    private deleteById(id: number): void {
+        this.isLoading = true;
+        this.productCategoryService.deleteById(row.id).subscribe(
+            () => this.matSnackBar.open('Successfully deleted record'),
+            error => this.displayError(error),
+            () => this.loadData());
     }
 
     private displayError(error: any): void {
