@@ -14,6 +14,12 @@
 ### Backend
 1) Update appsettings.json file (connectionString, DefaultDb value)
 2) In the terminal write:
-  - Add-Migration InitCreate
+  - Add-Migration InitCreate -OutputDir Database/Migrations
   - Update-Database
 3) Verify the ms sql database
+
+
+### Frontend
+1) Make sure that Angular version 14 is installed
+2) Run "npm i"
+3) Run command "ng s"
