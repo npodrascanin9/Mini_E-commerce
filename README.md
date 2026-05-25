@@ -14,8 +14,8 @@
 ### Backend
 1) Update appsettings.json file (connectionString, DefaultDb value)
 2) In the terminal write:
-  - Add-Migration InitCreate -OutputDir Database/Migrations
-  - Update-Database
+    - Add-Migration InitCreate -OutputDir Database/Migrations
+    - Update-Database
 3) Verify the ms sql database
 
 
