@@ -1,6 +1,6 @@
 # Mini E-commerce Project
 - A simple mini e-commerce project
-- **Stack:** .NET 8, Angular 16, MS SQL Server
+- **Stack:** .NET 8, Angular 14, MS SQL Server
 
 # Technical instructions
 ## Backend
