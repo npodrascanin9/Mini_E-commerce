@@ -73,8 +73,18 @@ Below is a preview of the test results (unit and integration tests):
 
 
 ## 2. UI
-The frontend application is simple and contains two main routes:
+The frontend application is built with **Angular 16** and provides a simple interface for interacting with the API.
 
-- **Product Categories** – full CRUD operations  
-- **Products** – product listing and details  
+### Routes
+- **Product Categories** – full CRUD operations (create, read, update, delete)  
+- **Products** – CRUD, including export excel, and logic for Articles 
 
+### Libraries & Packages
+- **Angular Material** – UI components (tables, forms, datepicker, etc.)  
+- **RxJS** – reactive programming for handling asynchronous data streams  
+- **TypeScript** – strongly typed language for building scalable frontend logic  
+
+### UI Preview
+Below is a preview of the user interface:
+
+----
