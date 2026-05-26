@@ -65,6 +65,11 @@ The backend is implemented using **Vertical Slice Architecture**:
 When launching the project, Swagger UI is available for testing:
 <img width="1898" height="1127" alt="image" src="https://github.com/user-attachments/assets/c154c6ad-3462-4375-a6ca-d6124782d6ef" />
 
+### Test Results Preview
+Below is a preview of the test results (unit and integration tests):
+
+<img width="1912" height="1061" alt="image" src="https://github.com/user-attachments/assets/4d867716-3498-4862-8e77-49ad10007fa5" />
+
 
 
 ## 2. UI
