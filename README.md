@@ -73,7 +73,7 @@ Below is a preview of the test results (unit and integration tests):
 
 
 ## 2. UI
-The frontend application is built with **Angular 16** and provides a simple interface for interacting with the API.
+The frontend application is built with **Angular 14** and provides a simple interface for interacting with the API.
 
 ### Routes
 - **Product Categories** – full CRUD operations (create, read, update, delete)  
