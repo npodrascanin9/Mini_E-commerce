@@ -149,7 +149,7 @@ The **Products** route supports full several operations:
 
 
 5) Update
-Note: After inserting a record, it should redirect the user to the update component (with a generated ProductId, where as articles section can be seen)
+- Note: After inserting a record, it should redirect the user to the update component (with a generated ProductId, where as articles section can be seen)
 
 <img width="1918" height="1112" alt="image" src="https://github.com/user-attachments/assets/37451a68-63ec-4e9c-bb66-b5e9e8b6d6af" />
    
@@ -166,6 +166,6 @@ Note: After inserting a record, it should redirect the user to the update compon
 
 
 7) Delete
-Note: When deleting a product, referenced articles will be removed as well, since we are using a transaction in backend when deleting a product.
+- Note: When deleting a product, referenced articles will be removed as well, since we are using a transaction in backend when deleting a product.
 <img width="1917" height="587" alt="image" src="https://github.com/user-attachments/assets/123f9954-148b-4172-82cb-89c876e54289" />
 
