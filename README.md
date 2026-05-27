@@ -95,7 +95,7 @@ The **Product Categories** route supports full CRUD operations:
 - **Update** – edit an existing category  
 - **Delete** – remove a category record  
 
-###### Screenshots
+##### Screenshots
 1) Read
 <img width="1918" height="1127" alt="image" src="https://github.com/user-attachments/assets/d2dffb7d-48fb-4be2-8019-ef847c4ab2df" />
 
@@ -121,4 +121,51 @@ The **Product Categories** route supports full CRUD operations:
 5.2) Verify that deleted record is not listed (after deleting a record (data is refreshed)
 <img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/d35cf5dc-6aee-4cb3-9be0-279ad8bfe1b8" />
 
+
+
+
+#### Products
+The **Products** route supports full several operations:
+- **Create** – add a new product  
+- **Read** – view all products in a table  
+- **Update** – edit an existing product  
+- **Delete** – remove a product record
+- **Export Excle** – download excel (list products)
+- **Articles** – contains all CRUD operations when updating a product
+
+##### Screenshots
+1) Read
+<img width="1918" height="761" alt="image" src="https://github.com/user-attachments/assets/8e9c9037-2c55-4928-8991-227cab3c8cfd" />
+
+
+2) Export excel
+<img width="1917" height="1126" alt="image" src="https://github.com/user-attachments/assets/8d564666-f20c-49b3-a63e-8a0e34dd0118" />
+
+   
+4) Create
+4.1) Example of the component
+- Note: Articles are not displayed when creating a product!
+<img width="1917" height="998" alt="image" src="https://github.com/user-attachments/assets/d2db124a-a494-4830-9239-087df974995a" />
+
+
+5) Update
+Note: After inserting a record, it should redirect the user to the update component (with a generated ProductId, where as articles section can be seen)
+
+<img width="1918" height="1112" alt="image" src="https://github.com/user-attachments/assets/37451a68-63ec-4e9c-bb66-b5e9e8b6d6af" />
+   
+5.1) Articles (ProductId = 2002)
+1) Articles: Read
+<img width="1918" height="1107" alt="image" src="https://github.com/user-attachments/assets/1253082c-dedd-4ebf-913b-a233c2ba27fd" />
+
+2) Articles: Create
+2.1) Simple dialog for inserting a record
+<img width="1918" height="1107" alt="image" src="https://github.com/user-attachments/assets/a61b1b94-c95f-422b-b614-472024170239" />
+
+2.2) After inserting a new record, Articles should be refreshed
+<img width="1918" height="1076" alt="image" src="https://github.com/user-attachments/assets/68fac957-1c53-42f9-bc70-2c3b16f362cc" />
+
+
+7) Delete
+Note: When deleting a product, referenced articles will be removed as well, since we are using a transaction in backend when deleting a product.
+<img width="1917" height="587" alt="image" src="https://github.com/user-attachments/assets/123f9954-148b-4172-82cb-89c876e54289" />
 
