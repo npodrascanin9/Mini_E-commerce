@@ -1,4 +1,4 @@
-<img width="1918" height="1066" alt="image" src="https://github.com/user-attachments/assets/613f15d3-6e88-4172-8de3-92bfbc0564ca" /># Mini E-commerce Project
+# Mini E-commerce Project
 - A simple mini e-commerce project
 - **Stack:** .NET 8, Angular 14, MS SQL Server
 
