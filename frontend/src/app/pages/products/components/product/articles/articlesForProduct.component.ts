@@ -61,6 +61,7 @@ export class ArticlesForProductComponent implements OnInit {
 
     private mapResponse(response: any): void {
         this.dataSource.data = response.rows;
+        this.count = response.count;
     }
 
     onCreate(): void {
