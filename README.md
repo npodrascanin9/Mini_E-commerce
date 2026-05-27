@@ -118,7 +118,7 @@ The **Product Categories** route supports full CRUD operations:
 5.1) Confirmation
 <img width="1918" height="887" alt="image" src="https://github.com/user-attachments/assets/5cb5300c-0476-45d9-8e27-f96016dff9f0" />
 
-5.2) Verify that deleted record is not listed (after deleting a record, records will be fetched again)
+5.2) Verify that deleted record is not listed (after deleting a record (data is refreshed)
 <img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/d35cf5dc-6aee-4cb3-9be0-279ad8bfe1b8" />
 
 
