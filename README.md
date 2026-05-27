@@ -87,6 +87,7 @@ The frontend application is built with **Angular 14** and provides a simple inte
 - **TypeScript** – strongly typed language for building scalable frontend logic  
 
 ### UI Preview
+- The UI provides a clean interface for managing categories and products, with support for CRUD operations, Excel export, and nested Articles management.
 
 #### Product Categories
 The **Product Categories** route supports full CRUD operations:
