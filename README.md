@@ -100,25 +100,29 @@ The **Product Categories** route supports full CRUD operations:
 <img width="1918" height="1127" alt="image" src="https://github.com/user-attachments/assets/d2dffb7d-48fb-4be2-8019-ef847c4ab2df" />
 
 2) Create
+<br>
 2.1) Dialog for inserting a record
 <img width="1918" height="1066" alt="image" src="https://github.com/user-attachments/assets/a795f82e-6495-47aa-882c-cd45f97dcb5d" />
 
+<br>
 2.2. Validation error for preventing a user to insert a category that already exists
 <img width="1916" height="1010" alt="image" src="https://github.com/user-attachments/assets/9e048f97-2fc6-4495-adc7-0e07679dc046" />
 
 3) Update
+<br>
 3.1. Dialog for editing a record
 <img width="1918" height="1048" alt="image" src="https://github.com/user-attachments/assets/87394f1f-20f6-48db-83f9-9c15f0c39c9b" />
-
+<br>
 3.2. Preview of data after updating a record
 <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/7553103f-8d3a-43b4-96a1-fd22a37a87a9" />
 
 
 4) Delete
-5.1. Confirmation
+<br>
+4.1. Confirmation
 <img width="1918" height="887" alt="image" src="https://github.com/user-attachments/assets/5cb5300c-0476-45d9-8e27-f96016dff9f0" />
 
-5.2. Verify that deleted record is not listed (after deleting a record (data is refreshed)
+4.2. Verify that deleted record is not listed (after deleting a record (data is refreshed)
 <img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/d35cf5dc-6aee-4cb3-9be0-279ad8bfe1b8" />
 
 
@@ -143,6 +147,7 @@ The **Products** route supports full several operations:
 
    
 3) Create
+<br>
 3.1. Example of the component
 - Note: Articles are not displayed when creating a product!
 <img width="1917" height="998" alt="image" src="https://github.com/user-attachments/assets/d2db124a-a494-4830-9239-087df974995a" />
@@ -154,13 +159,17 @@ The **Products** route supports full several operations:
 <img width="1918" height="1112" alt="image" src="https://github.com/user-attachments/assets/37451a68-63ec-4e9c-bb66-b5e9e8b6d6af" />
    
 4.1) Articles (ProductId = 2002)
+<br>
 4.1.1. Articles: Read
 <img width="1918" height="1107" alt="image" src="https://github.com/user-attachments/assets/1253082c-dedd-4ebf-913b-a233c2ba27fd" />
 
+<br>
 4.1.2. Articles: Create
+<br>
 4.1.2.1. Simple dialog for inserting a record
 <img width="1918" height="1107" alt="image" src="https://github.com/user-attachments/assets/a61b1b94-c95f-422b-b614-472024170239" />
 
+<br>
 4.1.2.2. After inserting a new record, Articles should be refreshed
 <img width="1918" height="1076" alt="image" src="https://github.com/user-attachments/assets/68fac957-1c53-42f9-bc70-2c3b16f362cc" />
 
