@@ -1,4 +1,4 @@
-# Mini E-commerce Project
+<img width="1918" height="1066" alt="image" src="https://github.com/user-attachments/assets/613f15d3-6e88-4172-8de3-92bfbc0564ca" /># Mini E-commerce Project
 - A simple mini e-commerce project
 - **Stack:** .NET 8, Angular 14, MS SQL Server
 
@@ -77,7 +77,9 @@ The frontend application is built with **Angular 14** and provides a simple inte
 
 ### Routes
 - **Product Categories** – full CRUD operations (create, read, update, delete)  
-- **Products** – CRUD, including export excel, and logic for Articles 
+- **Products** – CRUD operations, including:
+  - **Export to Excel** (using ClosedXML on the backend)  
+  - **Articles management** – when updating a product, articles can be added/edited/removed  
 
 ### Libraries & Packages
 - **Angular Material** – UI components (tables, forms, datepicker, etc.)  
@@ -85,6 +87,38 @@ The frontend application is built with **Angular 14** and provides a simple inte
 - **TypeScript** – strongly typed language for building scalable frontend logic  
 
 ### UI Preview
-Below is a preview of the user interface:
 
-----
+#### Product Categories
+The **Product Categories** route supports full CRUD operations:
+- **Create** – add a new category  
+- **Read** – view all categories in a table  
+- **Update** – edit an existing category  
+- **Delete** – remove a category record  
+
+###### Screenshots
+1) Read
+<img width="1918" height="1127" alt="image" src="https://github.com/user-attachments/assets/d2dffb7d-48fb-4be2-8019-ef847c4ab2df" />
+
+2) Create
+2.1) Dialog for inserting a record
+<img width="1918" height="1066" alt="image" src="https://github.com/user-attachments/assets/a795f82e-6495-47aa-882c-cd45f97dcb5d" />
+
+2.2) Validation error for preventing a user to insert a category that already exists
+<img width="1916" height="1010" alt="image" src="https://github.com/user-attachments/assets/9e048f97-2fc6-4495-adc7-0e07679dc046" />
+
+3) Update
+3.1) Dialog for editing a record
+<img width="1918" height="1048" alt="image" src="https://github.com/user-attachments/assets/87394f1f-20f6-48db-83f9-9c15f0c39c9b" />
+
+3.2) Preview of data after updating a record
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/7553103f-8d3a-43b4-96a1-fd22a37a87a9" />
+
+
+5) Delete
+5.1) Confirmation
+<img width="1918" height="887" alt="image" src="https://github.com/user-attachments/assets/5cb5300c-0476-45d9-8e27-f96016dff9f0" />
+
+5.2) Verify that deleted record is not listed (after deleting a record, records will be fetched again)
+<img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/d35cf5dc-6aee-4cb3-9be0-279ad8bfe1b8" />
+
+
