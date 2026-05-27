@@ -103,22 +103,22 @@ The **Product Categories** route supports full CRUD operations:
 2.1) Dialog for inserting a record
 <img width="1918" height="1066" alt="image" src="https://github.com/user-attachments/assets/a795f82e-6495-47aa-882c-cd45f97dcb5d" />
 
-2.2) Validation error for preventing a user to insert a category that already exists
+2.2. Validation error for preventing a user to insert a category that already exists
 <img width="1916" height="1010" alt="image" src="https://github.com/user-attachments/assets/9e048f97-2fc6-4495-adc7-0e07679dc046" />
 
 3) Update
-3.1) Dialog for editing a record
+3.1. Dialog for editing a record
 <img width="1918" height="1048" alt="image" src="https://github.com/user-attachments/assets/87394f1f-20f6-48db-83f9-9c15f0c39c9b" />
 
-3.2) Preview of data after updating a record
+3.2. Preview of data after updating a record
 <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/7553103f-8d3a-43b4-96a1-fd22a37a87a9" />
 
 
-5) Delete
-5.1) Confirmation
+4) Delete
+5.1. Confirmation
 <img width="1918" height="887" alt="image" src="https://github.com/user-attachments/assets/5cb5300c-0476-45d9-8e27-f96016dff9f0" />
 
-5.2) Verify that deleted record is not listed (after deleting a record (data is refreshed)
+5.2. Verify that deleted record is not listed (after deleting a record (data is refreshed)
 <img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/d35cf5dc-6aee-4cb3-9be0-279ad8bfe1b8" />
 
 
@@ -142,30 +142,30 @@ The **Products** route supports full several operations:
 <img width="1917" height="1126" alt="image" src="https://github.com/user-attachments/assets/8d564666-f20c-49b3-a63e-8a0e34dd0118" />
 
    
-4) Create
-4.1) Example of the component
+3) Create
+3.1. Example of the component
 - Note: Articles are not displayed when creating a product!
 <img width="1917" height="998" alt="image" src="https://github.com/user-attachments/assets/d2db124a-a494-4830-9239-087df974995a" />
 
 
-5) Update
+4) Update
 - Note: After inserting a record, it should redirect the user to the update component (with a generated ProductId, where as articles section can be seen)
 
 <img width="1918" height="1112" alt="image" src="https://github.com/user-attachments/assets/37451a68-63ec-4e9c-bb66-b5e9e8b6d6af" />
    
-5.1) Articles (ProductId = 2002)
-1) Articles: Read
+4.1) Articles (ProductId = 2002)
+4.1.1. Articles: Read
 <img width="1918" height="1107" alt="image" src="https://github.com/user-attachments/assets/1253082c-dedd-4ebf-913b-a233c2ba27fd" />
 
-2) Articles: Create
-2.1) Simple dialog for inserting a record
+4.1.2. Articles: Create
+4.1.2.1. Simple dialog for inserting a record
 <img width="1918" height="1107" alt="image" src="https://github.com/user-attachments/assets/a61b1b94-c95f-422b-b614-472024170239" />
 
-2.2) After inserting a new record, Articles should be refreshed
+4.1.2.2. After inserting a new record, Articles should be refreshed
 <img width="1918" height="1076" alt="image" src="https://github.com/user-attachments/assets/68fac957-1c53-42f9-bc70-2c3b16f362cc" />
 
 
-7) Delete
+5) Delete
 - Note: When deleting a product, referenced articles will be removed as well, since we are using a transaction in backend when deleting a product.
 <img width="1917" height="587" alt="image" src="https://github.com/user-attachments/assets/123f9954-148b-4172-82cb-89c876e54289" />
 
