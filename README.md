@@ -26,6 +26,7 @@
   - In the `Api.IntegrationTests` project, `"DefaultDb"` should reference the testing database (**CommerceTestDb**).  
 
 Recommended sql commands:
+<br>
     CREATE DATABASE CommerceDb;
     CREATE DATABASE CommerceTestDb;
 
